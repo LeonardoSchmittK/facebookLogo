@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "facebookFont";
+  src: url(/src/FACEBOLF.OTF);
+  font-weight: 100;
+}
+
+.container {
+  max-width: 500px;
+  height: auto;
+  padding: 20px;
+  margin: 60px auto;
+}
+
+.container .logo {
+  max-width: 300px;
+  height: 300px;
+  background: linear-gradient(#18a6f8, #15a0f0, #0c91df, #0065e2);
+  border-radius: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 2px 67px rgba(0, 101, 226, 0.34), 0px 9.22186px 50.3456px rgba(0, 101, 226, 0.22154), 0px 5.54938px 20.911px rgba(0, 101, 226, 0.17), 0px 2.86851px 7.5631px rgba(0, 101, 226, 0.11846);
+
+}
+
+.container .logo h1 {
+  font-family: facebookFont;
+  font-size: 20em;
+  color: #fafafa;
+  margin-bottom: 152px;
+  user-select: none;
+   -moz-user-select: none;
+    -webkit-user-select: none;
+}
